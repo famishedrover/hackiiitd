@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.archi.myapplication.SignUpActivity"
+    tools:showIn="@layout/activity_sign_up">
+
+    <LinearLayout
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:background="@color/colorAccent"
+            android:text="Name"
+            android:layout_marginTop="30px"
+           />
+
+        <EditText
+            android:layout_marginTop="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="NAME"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:background="@color/colorAccent"
+            android:text="Mobile Number"
+            android:layout_marginTop="30px"
+           />
+
+        <EditText
+            android:layout_marginTop="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="+91(XXXXXXXXXX)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:background="@color/colorAccent"
+            android:text="Location"
+            android:layout_marginTop="30px"
+           />
+
+        <EditText
+            android:layout_marginTop="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Delhi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:background="@color/colorAccent"
+            android:text="USER-ID"
+            android:layout_marginTop="30px"
+            />
+
+        <EditText
+            android:layout_marginTop="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Sagar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:background="@color/colorAccent"
+            android:text="Password"
+            android:layout_marginTop="30px"
+           />
+
+        <EditText
+            android:layout_marginTop="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="*****"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
