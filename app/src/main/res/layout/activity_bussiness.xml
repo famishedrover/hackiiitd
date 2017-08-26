@@ -4,40 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.archi.myapplication.CustomerLoginScreen">
+    tools:context="com.example.archi.myapplication.BussinessActivity">
 
 
     <LinearLayout
         android:layout_width="368dp"
         android:layout_height="495dp"
-        android:orientation="vertical"
-        android:gravity="center"
         android:layout_margin="20px"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="11dp">
 
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="CUSTOMER" />
+            android:text="BUSINESS" />
 
         <EditText
-            android:id="@+id/customer_uid"
+            android:id="@+id/business_uid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="USER-NAME" />
 
         <EditText
-            android:id="@+id/customer_pass"
+            android:id="@+id/business_pass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="PASSWORD" />
 
         <Button
-            android:id="@+id/customer_login"
+            android:id="@+id/business_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
@@ -45,19 +45,20 @@
             android:textColor="#ffffff" />
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="300px"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Not an Excisting User ? Click here to Sign Up"/>
-        <Button
-            android:layout_marginTop="50px"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SIGNUP"
-            android:id="@+id/signup"
-            android:background="@color/colorPrimary"
-            android:textColor="#ffffff"/>
+            android:text="Not an Excisting User ? Click here to Sign Up" />
 
+        <Button
+            android:id="@+id/business_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:background="@color/colorPrimary"
+            android:text="SIGNUP"
+            android:textColor="#ffffff" />
 
     </LinearLayout>
+
 </RelativeLayout>

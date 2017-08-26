@@ -14,6 +14,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button customerbutton ;
+    Button businessbutton ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +39,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i=new Intent() ;
                 i.setClass(MainActivity.this , CustomerLoginScreen.class) ;
+                startActivity(i);
+
+            }
+        });
+
+        businessbutton=(Button)findViewById(R.id.businessid) ;
+        businessbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent() ;
+                i.setClass(MainActivity.this , BussinessActivity.class) ;
                 startActivity(i);
 
             }
